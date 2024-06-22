@@ -1,0 +1,15 @@
+.hidden {
+  display: none;
+}
+
+#iframeCheckbox:checked ~ #iframeInputs {
+  display: block;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked + label + br + .hidden {
+  display: block;
+}

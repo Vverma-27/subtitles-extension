@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Upload Subtitles</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="popup.js" defer></script>
+  </head>
+  <body>
+    <input type="file" id="vttFile" accept=".vtt" />
+    <button id="uploadButton">Upload Subtitles</button>
+    <br />
+    <input type="checkbox" id="iframeCheckbox" />
+    <label for="iframeCheckbox">Iframe</label>
+    <br />
+    <div id="iframeInputs" class="hidden">
+      <label for="parentClass">Parent Class:</label>
+      <input type="text" id="parentClass" />
+      <br />
+      <label for="iframeContent">Iframe Content:</label>
+      <input type="text" id="iframeContent" />
+    </div>
+  </body>
+</html>
